@@ -1,0 +1,51 @@
+body {
+    max-width:550px;
+}
+
+.tile-container {
+    width: 180px;
+    overflow: inherit;
+}
+
+.tile {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    float: left;
+    background-color: #000;
+}
+
+.x-mark {
+    background: #FFF url("../image/icon-x.png");
+}
+
+.o-mark {
+    background: #FFF url("../image/icon-o.png");
+}
+
+div#game-result {
+    clear: both;
+    margin-top: 20px;
+    padding: 10px;
+    display:none;
+    background: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+div#game-result.win {
+    background: #7fdec5;
+}
+
+div#game-result.lost {
+    background: #ffc433
+}
+
+div#game-result.draw {
+    background: #cdcdcd;
+}
+
+.reset {
+    cursor:pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jquery/tictactoe.js"></script>
+</head>
+<body>
+<div id="game-result"></div>
+<form id="ticTacToeForm">
+    <input id="name" type="text" name="name" value="Marco">
+    <select id="level" name="level">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+    <input type="hidden" name="playerUnit" value="X">
+    <div class="tile-container">
+        <div class="tile" id="tile-1" data-position="1"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-2" data-position="2"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-3" data-position="3"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-4" data-position="4"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-5" data-position="5"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-6" data-position="6"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-7" data-position="7"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-8" data-position="8"><input type="hidden" name="boardState[]" value=""></div>
+        <div class="tile" id="tile-9" data-position="9"><input type="hidden" name="boardState[]" value=""></div>
+    </div>
+</form>
+</body>
+</html>
